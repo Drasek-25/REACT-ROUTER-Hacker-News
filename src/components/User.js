@@ -34,7 +34,7 @@ const User = (props) => {
             });
       };
       handleUserFetch();
-   }, [props.match.params.username]);
+   }, [props.match.params.username, error]);
 
    if (error !== false) return <h1>{error}</h1>;
    if (loading === true && error === false) return <h1>Loading...</h1>;

@@ -12,9 +12,12 @@ const Comments = (props) => {
       const handleFetchComments = async () => {
          setLoading(true);
          setError(false);
+         setPost(null);
+
          fetchItem(props.match.params.post)
             .then((post) => {
                setPost(post);
+
                fetchComments(post.kids)
                   .then((comments) => {
                      setComments(comments);
