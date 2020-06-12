@@ -2,15 +2,7 @@
 
 ## Project
 
-This is a (soft) "Hacker News" clone.
-
-You can view the final project at [Hacker News clone](https://competent-tesla-bf9dde.netlify.com/)
-
-## What You'll Need
-
-+ Documentation for the [Hacker News API](https://github.com/HackerNews/API).
-
-+ The `src/utils/api.js` file. You're here to learn React, not the Hacker News API.
++ Hacker News Clone is a frontend to deliver articles from the hacker news API.
 
 ## Project Preview
 

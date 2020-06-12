@@ -61,7 +61,7 @@ const Comments = (props) => {
                         </Link>
                      }
                   </span>
-                  <p>{comment.text}</p>
+                  <p dangerouslySetInnerHTML={{ __html: comment.text }} />
                </div>
             ))}
          </div>

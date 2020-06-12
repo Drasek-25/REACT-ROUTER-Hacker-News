@@ -1,9 +1,13 @@
+* {
+   color: #eeeeee;
+}
 html,
 body,
 #app {
    margin: 0;
    height: 100%;
    width: 100%;
+   background-color: #212831;
 }
 
 body {
@@ -19,6 +23,10 @@ li {
    list-style-type: none;
 }
 
+h1 {
+   font-size: 40px;
+}
+
 .container {
    max-width: 1200px;
    margin: 0 auto;
@@ -31,7 +39,7 @@ li {
 
 .dark {
    color: #dadada;
-   background: #1c2022;
+   background: #212831;
    min-height: 100%;
 }
 
@@ -40,7 +48,7 @@ li {
 }
 
 .link {
-   color: rgb(187, 46, 31);
+   color: #32e0c4;
    text-decoration: none;
    font-weight: bold;
 }
@@ -55,10 +63,10 @@ li {
 }
 
 .nav-link {
-   font-size: 18px;
+   font-size: 20px;
    font-weight: bold;
    text-decoration: none;
-   color: inherit;
+   color: #eeeeee;
 }
 
 .nav li {
@@ -80,11 +88,11 @@ li {
 
 .meta-info-light {
    margin-top: 5px;
-   color: gray;
+   color: #eeeeee;
 }
 
 .meta-info-light a {
-   color: black;
+   color: #32d1e0;
 }
 
 .meta-info-light span {

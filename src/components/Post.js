@@ -13,14 +13,16 @@ const Post = ({ title, creator, url, id, comments }) => {
       </Link>
    );
    return (
-      <div className="post">
-         <a className="link" href={url}>
-            {title}
-         </a>
-         <br />
-         <span className="meta-info-light">
-            by {userLink} with {commentLink} comments
-         </span>
+      <div className="comment">
+         <div className="post">
+            <a className="link" href={url}>
+               {title}
+            </a>
+            <br />
+            <span className="meta-info-light">
+               by {userLink} with {commentLink} comments
+            </span>
+         </div>
       </div>
    );
 };
